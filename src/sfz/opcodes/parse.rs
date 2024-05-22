@@ -386,6 +386,7 @@ volume=2.0",
 mod tests_parameters {
 
     use super::{Opcode, Regex};
+    use log::trace;
 
     #[test]
     fn test_parse_all_opcodes() {
